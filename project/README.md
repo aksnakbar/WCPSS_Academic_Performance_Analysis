@@ -111,7 +111,7 @@ To find answers, I grouped the schools area-wise and compared their mean GLP%(gr
 
     Performed Spearman and pearson correlation on % OF AIG students and GLP% on all schools
     Correlation between GLP% and AIG count: 0.86
-    The results suggest a strong positive correlation, indicating that schools with higher percentages of Advanced Instructional Groups (AIG) students tend to have higher Grade-Level Proficiency percentages.
+    The results suggest a strong positive correlation, indicating that schools with higher percentages of academcally intellectual gifted (AIG) students tend to have higher Grade-Level Proficiency percentages.
 
 [View my notebook for analysis](project\AIG_students_Analysis.ipynb)
 
@@ -119,6 +119,10 @@ To find answers, I grouped the schools area-wise and compared their mean GLP%(gr
 
 ![AIG vs GLP](output\AIG_GLP.png)
 ![Correlation between AIG% and GLP%](output\correlation_AIG_GLP.png)
+
+## 4.How performace of school varies based on calendar type?
+     Perfomed independent t-test to compare performance between traditional calendar and year-round
+     t-test gave a t-statistic of -1.11 with a p-value of 0.27, meaning the observed difference in glp_pct between                Traditional and Year-Round schools is not statistically significant. In other words, we cannot conclude that one             calendar type systematically outperforms the other in student proficiency outcomes.
 
 
 ### Future Work
